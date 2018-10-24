@@ -17,6 +17,7 @@ module.exports = {
   ],
   externals: [
     // Everything that starts with "@phosphor/"
-    /^@phosphor\/.+$/
+    /^@phosphor\/.+$/,
+    /^@jupyterlab\/.+$/
   ]
 };
