@@ -1,0 +1,20 @@
+{
+  "name": "webpack_extension",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.14.3",
+    "webpack": "4.22.0",
+    "webpack-cli": "3.1.2"
+  },
+  "jupyterlab": {
+    "extension": true
+  },
+  "dependencies": {
+    "@phosphor/widgets": "1.6.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
