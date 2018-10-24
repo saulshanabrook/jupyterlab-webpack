@@ -12,7 +12,7 @@ export default {
   requires: [],
   activate: app => {
     console.log("Starting webpack build extension");
-    app.commands.addCommand(command, {
+    app.commands.addCommand('webpack:sample', {
       label: "Sample widget",
       execute: () => {
         app.shell.addToMainArea(new SampleWidget());
