@@ -1,6 +1,7 @@
 {
   "name": "webpack_extension",
   "version": "1.0.0",
+  "description": "Sample for webpack build",
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
@@ -11,6 +12,9 @@
   "jupyterlab": {
     "extension": true
   },
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "@phosphor/widgets": "1.6.0"
   },
