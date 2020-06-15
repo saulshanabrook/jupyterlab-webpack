@@ -9,7 +9,7 @@ module.exports = {
     filename: "index.js",
     libraryTarget: "commonjs2"
   },
-  devtool: "none",
+  devtool: "eval-source-map",
   plugins: [
     new webpack.DefinePlugin({
       MAGIC_CONSTANT: JSON.stringify("some_thing")
